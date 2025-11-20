@@ -151,4 +151,5 @@ function fecharmodal(){
     const modal = document.getElementById("modal");
 
     modal.classList.remove("show")
+    void modal.offsetWidth;
 }
